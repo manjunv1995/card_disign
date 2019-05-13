@@ -1,0 +1,71 @@
+.container fa-icons{
+    font-size: 29px;
+}
+#main{
+    box-shadow: 7px 7px #e6e6ee;
+}
+#main-2{
+    box-shadow:7px 7px #e6e6ee;
+    margin-top: 5%;
+}
+#main-3{
+    box-shadow: 5px 5px #e6e6ee;
+    margin-top:10%;
+}
+span{
+    background-color: #00b300;
+    color: white;
+    padding: 1%;
+}
+h2{
+    font-weight: 300;
+    color: #666666;
+}
+h3{
+    font-weight: 300;
+    color: #666666;
+}
+h4{
+    font-weight: 300;
+    color: #00b300;
+}
+h6{
+    font-size: 20px;
+    font-weight: 400;
+}
+.title{
+    font-size: 20px;
+}
+.fa-briefcase{
+    color: #00b300;
+    font-size: 20px;
+}
+.fa-envelope{
+    color: #00b300;
+    font-size: 20px;
+}
+.fa-home{
+    color: #00b300;
+    font-size: 20px; 
+}
+.fa-phone{
+    color: #00b300;
+    font-size: 20px;
+}
+.fa-snowflake-o{
+    color: #00b300;
+}
+.fa-globe{
+    color: #00b300;
+}
+.fa-suitcase{
+    color: #00b300;
+}
+.calendar{
+    color: #00b300;
+}
+.footer{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 3%;
+}
