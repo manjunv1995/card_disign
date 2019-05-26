@@ -1,75 +1,129 @@
-h1{
-    font-style: italic;
-    color: orange;
-    text-align: center;
-    font-size: 80px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.slid-img{
-    width: 100%;
-    height: auto;
+
+h1 {
+    font-family: 'Merriweather', serif;
+    background-color: #ff8c00;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    padding: 20px 0px;
 }
-.logo-img1{
+
+/* NAVBAR */
+#navbar {
+    position: sticky-top;
+    background-color: black;
+}
+
+.navbar-brand img {
+    height: 70px;
+}
+
+.nav-link a :hover {
+    background-color: orange;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+
+}
+
+.img-silde {
+    background-color: black;
+}
+
+.slid-img {
+    width: 100%;
+    height: 10px;
+}
+
+.logo-img1 {
     width: 300px;
     margin-left: 0%;
 }
+
 .footer {
     background-color: aliceblue;
     text-align: center;
     padding: 3%;
 }
+
 .carousel-inner img {
     width: 100%;
     height: 100%;
 }
 
-.root{
+.root {
     display: inline-flex;
     justify-content: space-around;
 }
-.log{
+
+.log {
     width: 100%;
     height: 200px;
     margin-top: 10px;
     border-radius: 20px;
 }
 
-h3{
+h3 {
+    font-family: 'Lobster', cursive;
     text-align: center;
     font-size: 50px;
     color: skyblue;
     text-decoration: underline;
     text-decoration-color: chartreuse;
-    margin-top: 50px;   
-}
-h6{
-    margin-top: 10px;
-    text-align: center;
-    background-color: pink;
-    color: blue;
-    text-align: center;
-    padding: 2%;
-    border-radius: 20px;
+    margin-top: 50px;
 }
 
-.text{
+h6 {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #c2d1f0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.text {
+    font-family: 'Crimson Text', serif;
     width: 90%;
     text-align: center;
 }
 
-#new{
+#new {
     border: 3px solid orange;
     border-radius: 20px;
 }
-.fa-facebook{
-    font-size: 50px;
-    color:red;
+
+/* footer */
+
+
+.fa-icons {
+    display: flex;
+    justify-content: space-evenly;
+
 }
-.fa-twitter{
+
+.fa-facebook {
     font-size: 50px;
-    color:red;
+    color: #ace600;
 }
-.fa-instagram{
+
+.fa-twitter {
     font-size: 50px;
-    color:red;
+    color: #ace600;
+}
+
+.fa-instagram {
+    font-size: 50px;
+    color: #ace600;
 }
